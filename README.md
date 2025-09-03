@@ -1,4 +1,4 @@
-# Agent Design Patterns (GitHub Book)
+# Architecture of Agency (GitHub Book)
 
 A neuroscience‑inspired handbook for building safe, reliable, and capable AI agents. This repository organizes the book into Markdown chapters, ready to publish with MkDocs + Material theme and GitHub Pages.
 
@@ -42,4 +42,3 @@ A neuroscience‑inspired handbook for building safe, reliable, and capable AI a
 ## License
 
 TBD by the repository owner.
-
