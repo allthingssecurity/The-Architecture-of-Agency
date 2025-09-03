@@ -2,6 +2,14 @@
 
 ## The Brain’s Multi-Threading: How Agents Juggle Many Things at Once
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="Brain_s_Multi-Threading.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="Brain_s_Multi-Threading.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Inspired by Distributed Attention and Parallel Processing in the Brain
 
 Have you ever had a conversation while driving? You’re steering, scanning the road, adjusting speed — all while listening to your passenger and maybe even planning what to say next. If you had to wait until you finished driving to start listening, and then wait until listening was over before speaking, life would be impossible.
@@ -81,4 +89,3 @@ The important part: tasks that don’t depend on each other don’t need to wait
 ### Conclusion
 
 The brilliance of cognition isn’t in doing one thing flawlessly but in doing many things together, harmonized like an orchestra. Agents that embrace brain-like multi-threading feel responsive, capable, and alive — juggling tasks the way we do in everyday life.
-
