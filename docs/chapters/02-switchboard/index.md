@@ -2,6 +2,14 @@
 
 ## The Brain’s Switchboard: How Agents Decide Where to Go Next
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="The_Agent_s_Switchboard.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="The_Agent_s_Switchboard.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Inspired by the Basal Ganglia and Prefrontal Cortex
 
 Imagine you’re standing in a busy train station. Trains come and go. People shuffle toward platforms, each bound for a different destination. Now, picture yourself trying to navigate: Do you board the local train? Do you wait for the express? Or maybe you need to switch lines entirely?
@@ -82,4 +90,3 @@ The important part isn’t the code — it’s the mindset. The agent doesn’t 
 The switchboard pattern transforms agents into decision-makers. It’s the leap from rigid scripts to systems that can evaluate context and choose intelligently.
 
 Choice isn’t just a luxury — it’s the essence of intelligence.
-
