@@ -2,6 +2,14 @@
 
 ## The Flow of Thought: How Agents String Ideas Together
 
+<div style=\"margin: 1rem 0;\">
+  <video controls preload=\"metadata\" style=\"width:100%;max-width:960px;border-radius:8px;background:#000;\">
+    <source src=\"Cognitive_Flow.mp4\" type=\"video/mp4\" />
+    Your browser does not support the video tag. You can
+    <a href=\"Cognitive_Flow.mp4\">download the video here</a>.
+  </video>
+</div>
+
 Inspired by Working Memory and Cognitive Sequences
 
 If you’ve ever tried to juggle too many things in your head at once, you’ll know the limits of human working memory. Picture this: you’re cooking dinner, answering a child’s question, and mentally drafting tomorrow’s presentation slides — all at the same time. Inevitably, something slips. Maybe the onions burn. Maybe you lose your train of thought mid-sentence. Our brains aren’t great at holding everything in one giant ball.
@@ -74,4 +82,3 @@ Notice how the system doesn’t leap straight to the final email. It moves throu
 The flow of thought — breaking a problem into smaller, connected steps — is one of the most powerful design insights from neuroscience. Our brains evolved to handle complexity by chunking it into sequences, and agents thrive when we do the same.
 
 When you see an intelligent system produce a polished, nuanced result, it’s rarely because it got everything right on the first try. More often, it’s because it walked through the problem step by step, each part building on the last. Just as the brain strings together thoughts into coherent action, agents that follow this pattern learn to turn complexity into clarity.
-
