@@ -1,0 +1,53 @@
+site_name: Agent Design Patterns
+site_description: Neuroscience-inspired patterns for building safe, capable AI agents
+site_url: https://example.com
+repo_url: https://github.com/your-org/agent-design-patterns
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue
+      accent: deep orange
+nav:
+  - Overview:
+      - Home: index.md
+      - Preface: preface/index.md
+      - Introduction: introduction/index.md
+      - Table of Contents: table-of-contents.md
+  - Chapters:
+      - 01 · The Flow of Thought: chapters/01-flow-of-thought/index.md
+      - 02 · The Brain’s Switchboard: chapters/02-switchboard/index.md
+      - 03 · Multi-Threading: chapters/03-multithreading/index.md
+      - 04 · The Inner Critic: chapters/04-inner-critic/index.md
+      - 05 · Extending the Mind: chapters/05-extension/index.md
+      - 06 · Forward Simulation: chapters/06-forward-simulation/index.md
+      - 07 · The Social Brain: chapters/07-social-brain/index.md
+      - 08 · Memory: chapters/08-memory/index.md
+      - 09 · Learning & Adaptation: chapters/09-learning-adaptation/index.md
+      - 10 · Shared Language for Tools (MCP): chapters/10-mcp/index.md
+      - 11 · Goals & Feedback: chapters/11-goals-feedback/index.md
+      - 12 · Human-in-the-Loop: chapters/12-hitl/index.md
+      - 13 · Hippocampal Recall (RAG): chapters/13-rag/index.md
+      - 14 · Inter-Agent Communication (A2A): chapters/14-a2a/index.md
+      - 15 · Resource-Aware Optimization: chapters/15-resource-optimization/index.md
+      - 16 · Reasoning Techniques: chapters/16-reasoning/index.md
+      - 17 · Guardrails & Safety: chapters/17-guardrails/index.md
+      - 18 · Evaluation & Monitoring: chapters/18-evaluation-monitoring/index.md
+      - 19 · Exploration & Discovery: chapters/19-exploration/index.md
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+
