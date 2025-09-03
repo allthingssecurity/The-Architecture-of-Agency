@@ -1,7 +1,7 @@
 site_name: Agent Design Patterns
 site_description: Neuroscience-inspired patterns for building safe, capable AI agents
-site_url: https://example.com
-repo_url: https://github.com/your-org/agent-design-patterns
+site_url: https://allthingssecurity.github.io/The-Architecture-of-Agency/
+repo_url: https://github.com/allthingssecurity/The-Architecture-of-Agency
 theme:
   name: material
   features:
@@ -50,4 +50,3 @@ markdown_extensions:
   - pymdownx.highlight
   - toc:
       permalink: true
-
