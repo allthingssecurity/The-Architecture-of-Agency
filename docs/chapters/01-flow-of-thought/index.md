@@ -3,12 +3,12 @@
 ## The Flow of Thought: How Agents String Ideas Together
 
 <div style="margin: 1rem 0;">
-  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
-    <source src="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.mp4" type="video/mp4" />
-    <source src="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.webm" type="video/webm" />
+  <video controls playsinline preload="metadata" crossorigin="anonymous" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.mp4?v=2" type="video/mp4" />
+    <source src="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.webm?v=2" type="video/webm" />
     Your browser does not support the video tag. You can
-    <a href="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.mp4">download the MP4</a> or
-    <a href="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.webm">download the WebM</a>.
+    <a href="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.mp4?v=2">download the MP4</a> or
+    <a href="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.webm?v=2">download the WebM</a>.
   </video>
 </div>
 
