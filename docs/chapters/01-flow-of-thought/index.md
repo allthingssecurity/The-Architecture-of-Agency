@@ -14,14 +14,6 @@
 
 Inspired by Working Memory and Cognitive Sequences
 
-> Quick sanity check player (3s test clip):
-
-<div style=\"margin: 0.5rem 0 1rem;\">
-  <video controls preload=\"metadata\" style=\"width:100%;max-width:480px;border-radius:8px;background:#000;\">
-    <source src=\"/The-Architecture-of-Agency/chapters/01-flow-of-thought/test_clip.mp4?v=1\" type=\"video/mp4\" />
-  </video>
-</div>
-
 If you’ve ever tried to juggle too many things in your head at once, you’ll know the limits of human working memory. Picture this: you’re cooking dinner, answering a child’s question, and mentally drafting tomorrow’s presentation slides — all at the same time. Inevitably, something slips. Maybe the onions burn. Maybe you lose your train of thought mid-sentence. Our brains aren’t great at holding everything in one giant ball.
 
 Instead, what we do is break complex tasks into steps. First chop the vegetables. Then sauté. Then check the slides. Then return to the conversation. It feels natural, almost invisible — but it’s one of the most powerful tricks of cognition. We don’t demand that our minds solve the entire problem in one monolithic leap. We stitch together smaller moves into a coherent flow.
