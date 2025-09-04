@@ -2,6 +2,14 @@
 
 ## The Brain’s Forward Simulation: How Agents Learn to Look Ahead
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="AI_Learns_to_Look_Ahead.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="AI_Learns_to_Look_Ahead.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Inspired by Prefrontal Cortex Foresight and Cognitive Control
 
 Planning is running mental simulations before acting. The prefrontal cortex holds goals, the hippocampus replays past experiences as futures, and the ACC monitors conflicts. Agents need the same: decompose large goals into sub-goals, simulate pathways, and adapt as constraints change.
@@ -40,4 +48,3 @@ def plan(goal, constraints):
 ### Conclusion
 
 Forward simulation turns reactive responders into strategic partners that can adapt while keeping goals in sight.
-
