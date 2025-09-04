@@ -2,6 +2,14 @@
 
 ## The Social Brain: How Agents Learn to Work Together
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="The_Social_Brain.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="The_Social_Brain.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Inspired by Human Cooperation, Communication, and Division of Labor
 
 Human intelligence is social intelligence. Neuroscience reveals specialized circuits for inferring intentions, coordinating actions, and aligning on shared goals. Agents, too, become powerful when they form teams — dividing tasks, sharing knowledge, debating options, and converging on better outcomes than any one could produce alone.
@@ -52,4 +60,3 @@ def collaborate(goal):
 ### Conclusion
 
 A society of agents can tackle complex, multi-domain challenges that mirror the real world — turning isolated sparks into a networked mind.
-
