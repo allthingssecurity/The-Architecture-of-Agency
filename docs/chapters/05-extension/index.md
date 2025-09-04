@@ -2,6 +2,14 @@
 
 ## Extending the Mind: How Agents Reach Beyond Themselves
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="Extending_the_Mind.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="Extending_the_Mind.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Inspired by Human Tool Use and Cognitive Offloading
 
 Humans are not confined to their skulls. We extend cognition with tools — from fingers for counting to smartphones for navigation. Agents are no different: however sophisticated their reasoning, they are limited if they only “think” within trained data. To be useful, they must reach outward — to fetch real-time facts, execute precise calculations, and control external systems.
@@ -52,4 +60,3 @@ def answer_query(user_input):
 ### Conclusion
 
 Agents become true assistants when they extend beyond their boundaries — not just thinkers, but doers.
-
