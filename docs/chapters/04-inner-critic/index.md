@@ -2,6 +2,14 @@
 
 ## The Inner Critic: How Agents Learn to Check Themselves
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="AI_s_Inner_Critic.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="AI_s_Inner_Critic.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Inspired by Error Monitoring and Meta-Cognition in the Brain
 
 Have you ever sent an email and then, seconds later, thought: “Wait… did I attach the file?” That moment of self-checking — catching an error before it causes damage — is your brain’s inner critic at work.
@@ -53,4 +61,3 @@ def agent_with_inner_critic(task):
 ### Conclusion
 
 An agent with an inner critic doesn’t just speak — it listens to itself. That loop of generate → critique → refine is a cornerstone of robust intelligence.
-
