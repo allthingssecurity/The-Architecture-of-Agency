@@ -2,6 +2,14 @@
 
 ## Shared Language for Tools: How Agents Extend Themselves Beyond the Brain
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="The_Agent_s_Nervous_System.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="The_Agent_s_Nervous_System.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Inspired by the Nervous System and Neural Signaling
 
 Brains need a common signaling system to act in the world. For agents, the Model Context Protocol (MCP) plays that role: a shared, structured way for agents to discover and use tools consistently.
@@ -35,4 +43,3 @@ Databases, generative media tools, workflows/CRMs, IoT, finance systems — all 
 ### Conclusion
 
 MCP transforms isolated LLMs into embodied minds capable of sensing and acting through standardized connections.
-

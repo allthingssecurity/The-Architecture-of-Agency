@@ -2,6 +2,14 @@
 
 ## Learning and Adaptation: How Agents Reshape Themselves Through Experience
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="Agent_Learning_%26_Adaptation.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="Agent_Learning_%26_Adaptation.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Inspired by Neuroplasticity, Reward Signals, and Adaptive Cognition
 
 Intelligence is the capacity to change. The brain adapts through reinforcement signals, supervised learning, unsupervised discovery, few-shot generalization, online learning, and memory-based recall. Agents need similar mechanisms to avoid brittleness and grow with their environment.
@@ -39,4 +47,3 @@ observe → evaluate → modify → test → remember → repeat
 ### Conclusion
 
 Learning and adaptation transform agents from static executors into living processes that improve over time.
-
