@@ -25,11 +25,13 @@
       }
       if (d._children) d._children.forEach(collapse);
     };
-    // Shallow initial: keep root and its direct children expanded,
-    // collapse grandchildren and deeper under each root child
+    // Shallow initial: show only root and first-level topics
     if (root.children) {
       root.children.forEach(child => {
-        if (child.children) child.children.forEach(collapse);
+        if (child.children) {
+          child._children = child.children; // stash grandchildren
+          child.children = null;            // hide grandchildren initially
+        }
       });
     }
 
