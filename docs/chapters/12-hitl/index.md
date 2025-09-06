@@ -2,6 +2,14 @@
 
 ## The Prefrontal Override: Human-in-the-Loop as Cognitive Control for Agents
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="The_Prefrontal_Override.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="The_Prefrontal_Override.mp4">download the MP4</a>.
+  </video>
+</div>
+
 The brain’s safeguard: fast, automatic systems act, but the PFC overrides when judgment, ethics, or nuance is required. Human‑in‑the‑Loop (HITL) plays the same role for agents: escalate ambiguous, risky, or high‑impact cases to humans.
 
 ### Neuroscience Analogy
@@ -35,4 +43,3 @@ HITL isn’t for every decision. Hybrid systems blend automation for scale with 
 ### Conclusion
 
 HITL keeps human values central while agents operate independently — the digital prefrontal cortex.
-
