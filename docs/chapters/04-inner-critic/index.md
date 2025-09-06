@@ -10,6 +10,52 @@
   </video>
 </div>
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch4"></div>
+  <script type="application/json" id="dag-ch4-data">
+  {
+    "name": "The Inner Critic",
+    "children": [
+      {"name": "Brain’s Analogy", "children": [
+        {"name": "ACC: error detector"},
+        {"name": "PFC: adjust behavior"}
+      ]},
+      {"name": "Why Agents Need It", "children": [
+        {"name": "Draft → critique → refine"},
+        {"name": "Catch errors before they cascade"}
+      ]},
+      {"name": "Real-World Scenarios", "children": [
+        {"name": "Writing (flow & style)"},
+        {"name": "Code (write → test → fix)"},
+        {"name": "Planning (goal alignment)"},
+        {"name": "Conversation (self-correction)"}
+      ]},
+      {"name": "Sketch", "children": [
+        {"name": "generate → evaluate(criteria) → revise"}
+      ]},
+      {"name": "Design Lessons", "children": [
+        {"name": "First drafts are starting points"},
+        {"name": "Critique needs clear criteria"},
+        {"name": "Stop at good‑enough"},
+        {"name": "Memory makes critique smarter"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "Listening to yourself makes results robust"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
+
 Inspired by Error Monitoring and Meta-Cognition in the Brain
 
 Have you ever sent an email and then, seconds later, thought: “Wait… did I attach the file?” That moment of self-checking — catching an error before it causes damage — is your brain’s inner critic at work.
