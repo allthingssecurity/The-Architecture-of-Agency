@@ -16,6 +16,43 @@ Inspired by Working Memory and Cognitive Sequences
 
 If you’ve ever tried to juggle too many things in your head at once, you’ll know the limits of human working memory. Picture this: you’re cooking dinner, answering a child’s question, and mentally drafting tomorrow’s presentation slides — all at the same time. Inevitably, something slips. Maybe the onions burn. Maybe you lose your train of thought mid-sentence. Our brains aren’t great at holding everything in one giant ball.
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Mindmap (beta)
+
+<details open>
+  <summary>Toggle mindmap</summary>
+
+  <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+
+  ```markmap
+  # The Flow of Thought
+  - Brain’s Analogy
+    - Working memory limits (chunking)
+    - Prefrontal sequencing (conductor)
+  - Why Flow Matters
+    - Decompose → build stages
+    - Reliability, fewer omissions
+  - Everyday Examples
+    - Storytelling (outline → chapters)
+    - Cooking (prep → layer flavors)
+    - Education (stepwise teaching)
+    - Conversation (turn-taking)
+  - Agent Design Lessons
+    - Clarity: inspect steps
+    - Accuracy: catch errors early
+    - Flexibility: tool use mid-flow
+    - Human-likeness: natural rhythm
+  - Pseudocode Sketch
+    - summarize → extract → evidence → draft
+  - Conclusion
+    - Sequence turns complexity into clarity
+  ```
+
+</details>
+
+<!-- mindmap:end -->
+
 Instead, what we do is break complex tasks into steps. First chop the vegetables. Then sauté. Then check the slides. Then return to the conversation. It feels natural, almost invisible — but it’s one of the most powerful tricks of cognition. We don’t demand that our minds solve the entire problem in one monolithic leap. We stitch together smaller moves into a coherent flow.
 
 Agents benefit from the same trick. Asking an intelligent system to handle a massive, tangled request in one go is like asking yourself to play an entire symphony perfectly on the first try. The result is often messy, incomplete, or flat-out wrong. But when we break the task into manageable steps, each step builds on the last, and the final performance is not only more accurate but more graceful.
