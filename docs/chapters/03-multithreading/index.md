@@ -12,6 +12,56 @@
 
 Inspired by Distributed Attention and Parallel Processing in the Brain
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch3"></div>
+  <script type="application/json" id="dag-ch3-data">
+  {
+    "name": "The Brain’s Multi-Threading",
+    "children": [
+      {"name": "Brain’s Analogy", "children": [
+        {"name": "Vision: what & where in parallel"},
+        {"name": "Memory: encode + contextualize"},
+        {"name": "Movement: cerebellum + motor cortex"}
+      ]},
+      {"name": "Why It Matters", "children": [
+        {"name": "Hotels + flights + events concurrently"},
+        {"name": "Stitch results → unified plan"}
+      ]},
+      {"name": "Real-World Scenarios", "children": [
+        {"name": "Research (papers, news, DB)"},
+        {"name": "Healthcare (symptoms, history, vitals)"},
+        {"name": "Creative (titles, sections, visuals)"},
+        {"name": "Assistants (calendar, weather, notify)"}
+      ]},
+      {"name": "Everyday Parallel", "children": [
+        {"name": "Cooking: boil + simmer + chop + preheat"}
+      ]},
+      {"name": "Sketch", "children": [
+        {"name": "run_in_parallel(tasks) → combine(results)"}
+      ]},
+      {"name": "Design Lessons", "children": [
+        {"name": "Not everything needs a queue"},
+        {"name": "Synchronization is key"},
+        {"name": "Match human intuition"},
+        {"name": "Watch the costs"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "Orchestrate threads like an orchestra"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
+
 Have you ever had a conversation while driving? You’re steering, scanning the road, adjusting speed — all while listening to your passenger and maybe even planning what to say next. If you had to wait until you finished driving to start listening, and then wait until listening was over before speaking, life would be impossible.
 
 This is the essence of multi-threading in human cognition. Our brains are remarkable not because they do one thing perfectly in sequence, but because they can orchestrate multiple operations at the same time — each in its own channel, yet woven together into one coherent experience.
