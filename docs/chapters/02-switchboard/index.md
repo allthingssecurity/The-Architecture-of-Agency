@@ -2,6 +2,53 @@
 
 ## The Brain’s Switchboard: How Agents Decide Where to Go Next
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class=\"dag-mindmap\" id=\"dag-ch2\"></div>
+  <script type=\"application/json\" id=\"dag-ch2-data\">{
+    "name": "The Brain’s Switchboard",
+    "children": [
+      {"name": "Why Agents Need a Switchboard", "children": [
+        {"name": "Ambiguous requests → route by intent"},
+        {"name": "Adapt based on goals & context"}
+      ]},
+      {"name": "Real-World Scenarios", "children": [
+        {"name": "Customer Support (triage, escalate)"},
+        {"name": "Research Systems (specialists)"},
+        {"name": "Healthcare (red flags vs routine)"},
+        {"name": "Productivity (contacts, calendar, conflicts)"}
+      ]},
+      {"name": "How It Works", "children": [
+        {"name": "Rules (if-then)"},
+        {"name": "Similarity matching"},
+        {"name": "Judgment via LLM classification"}
+      ]},
+      {"name": "Everyday Parallel", "children": [
+        {"name": "Parent triage: scrape vs tantrum vs serious"}
+      ]},
+      {"name": "Pseudocode", "children": [
+        {"name": "classify → branch (shipping/refund/info/clarify)"}
+      ]},
+      {"name": "Design Lessons", "children": [
+        {"name": "Choice creates flexibility"},
+        {"name": "Context is king"},
+        {"name": "Balance speed & accuracy"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "Switchboard → decision-making, not scripts"}
+      ]}
+    ]
+  }</script>
+
+</details>
+
+<!-- mindmap:end -->
+
 <div style="margin: 1rem 0;">
   <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
     <source src="The_Agent_s_Switchboard.mp4" type="video/mp4">
