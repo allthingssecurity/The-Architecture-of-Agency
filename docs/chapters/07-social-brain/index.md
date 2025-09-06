@@ -2,6 +2,14 @@
 
 ## The Social Brain: How Agents Learn to Work Together
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="The_Social_Brain.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="The_Social_Brain.mp4">download the MP4</a>.
+  </video>
+</div>
+
 <!-- mindmap:start (remove this whole block to disable) -->
 
 ### Interactive Graph (beta)
@@ -50,14 +58,6 @@
 </details>
 
 <!-- mindmap:end -->
-
-<div style="margin: 1rem 0;">
-  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
-    <source src="The_Social_Brain.mp4" type="video/mp4">
-    Your browser does not support the video tag. You can
-    <a href="The_Social_Brain.mp4">download the MP4</a>.
-  </video>
-</div>
 
 Inspired by Human Cooperation, Communication, and Division of Labor
 
