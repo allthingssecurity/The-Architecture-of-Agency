@@ -13,6 +13,9 @@ theme:
     - scheme: default
       primary: blue
       accent: deep orange
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - assets/js/mermaid-init.js
 nav:
   - Overview:
       - Home: index.md

@@ -23,37 +23,30 @@ If you’ve ever tried to juggle too many things in your head at once, you’ll 
 <details open>
   <summary>Toggle mindmap</summary>
 
-  <!--
-    Markmap autoloader with zoom + toolbar and shallow initial expansion.
-    Remove this <script> to disable the mindmap entirely.
-  -->
-  <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@latest"
-          data-zoom="true"
-          data-toolbar="true"
-          data-initial-expand-level="1"></script>
-
-  ```markmap
-  # The Flow of Thought
-  - Brain’s Analogy [↗](#the-brains-analogy-chunks-and-sequences)
-    - Working memory limits (chunking)
-    - Prefrontal sequencing (conductor)
-  - Why Flow Matters [↗](#why-flow-matters-for-agents)
-    - Decompose → build stages
-    - Reliability, fewer omissions
-  - Everyday Examples [↗](#everyday-examples)
-    - Storytelling (outline → chapters)
-    - Cooking (prep → layer flavors)
-    - Education (stepwise teaching)
-    - Conversation (turn-taking)
-  - Agent Design Lessons [↗](#agent-design-lessons)
-    - Clarity: inspect steps
-    - Accuracy: catch errors early
-    - Flexibility: tool use mid-flow
-    - Human-likeness: natural rhythm
-  - Pseudocode Sketch [↗](#pseudocode-sketch)
-    - summarize → extract → evidence → draft
-  - Conclusion [↗](#conclusion)
-    - Sequence turns complexity into clarity
+  ```mermaid
+  %%{init: {"theme": "default"}}%%
+  mindmap
+    root((The Flow of Thought))
+      Brain’s Analogy
+        Working memory limits (chunking)
+        Prefrontal sequencing (conductor)
+      Why Flow Matters
+        Decompose → build stages
+        Reliability, fewer omissions
+      Everyday Examples
+        Storytelling (outline → chapters)
+        Cooking (prep → layer flavors)
+        Education (stepwise teaching)
+        Conversation (turn-taking)
+      Agent Design Lessons
+        Clarity: inspect steps
+        Accuracy: catch errors early
+        Flexibility: tool use mid-flow
+        Human-likeness: natural rhythm
+      Pseudocode Sketch
+        summarize → extract → evidence → draft
+      Conclusion
+        Sequence turns complexity into clarity
   ```
 
 </details>
