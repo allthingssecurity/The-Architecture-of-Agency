@@ -10,6 +10,51 @@
   </video>
 </div>
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch14"></div>
+  <script type="application/json" id="dag-ch14-data">
+  {
+    "name": "A2A (Inter‑Agent Communication)",
+    "children": [
+      {"name": "Neuroscience Analogy", "children": [
+        {"name": "Neurons: intelligence from interaction"},
+        {"name": "Humans: society > individual"},
+        {"name": "Agents: specialists coordinate"}
+      ]},
+      {"name": "Core Concepts", "children": [
+        {"name": "Agent Card (identity)"},
+        {"name": "Discovery (registries/URIs)"},
+        {"name": "Communication (attrs, parts, lifecycle)"},
+        {"name": "Interaction (sync, async, SSE, webhooks)"},
+        {"name": "Security (auth, encrypt, audit)"}
+      ]},
+      {"name": "A2A vs MCP", "children": [
+        {"name": "MCP: agent ↔ tools"},
+        {"name": "A2A: agent ↔ agents"}
+      ]},
+      {"name": "Applications", "children": [
+        {"name": "Multi‑framework collaboration"},
+        {"name": "Workflow orchestration"},
+        {"name": "Dynamic retrieval (scout→analyst→executor)"},
+        {"name": "Enterprise data coordination"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "From isolates to cognitive society"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
+
 Human intelligence is amplified through social exchange; agent intelligence scales through Inter‑Agent Communication (A2A). A2A is the protocol for meaning exchange, delegation, and collective intelligence across agents.
 
 ### Neuroscience Analogy
