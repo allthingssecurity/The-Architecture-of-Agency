@@ -10,6 +10,53 @@
   </video>
 </div>
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch6"></div>
+  <script type="application/json" id="dag-ch6-data">
+  {
+    "name": "Forward Simulation",
+    "children": [
+      {"name": "Brain’s Analogy", "children": [
+        {"name": "PFC: goals & control"},
+        {"name": "Hippocampus: replays futures"},
+        {"name": "ACC: conflict monitoring"}
+      ]},
+      {"name": "Why It Matters", "children": [
+        {"name": "Map state → goal → subgoals"},
+        {"name": "What‑if checks & replans"}
+      ]},
+      {"name": "Real-World Scenarios", "children": [
+        {"name": "Workflows (dependencies)"},
+        {"name": "Robotics (obstacles)"},
+        {"name": "Research (outline → execute)"},
+        {"name": "Support (troubleshoot → escalate)"}
+      ]},
+      {"name": "Sketch", "children": [
+        {"name": "assess → decompose → simulate → choose"}
+      ]},
+      {"name": "Design Lessons", "children": [
+        {"name": "Foresight is essential"},
+        {"name": "Flexibility over rigidity"},
+        {"name": "Use planning when how isn’t obvious"},
+        {"name": "Integrate memory, tools, reflection"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "Reactive → strategic partner"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
+
 Inspired by Prefrontal Cortex Foresight and Cognitive Control
 
 Planning is running mental simulations before acting. The prefrontal cortex holds goals, the hippocampus replays past experiences as futures, and the ACC monitors conflicts. Agents need the same: decompose large goals into sub-goals, simulate pathways, and adapt as constraints change.
