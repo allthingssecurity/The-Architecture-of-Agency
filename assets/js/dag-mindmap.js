@@ -15,16 +15,18 @@
     const dy = 180;          // horizontal separation per depth
     let root = d3.hierarchy(data);
 
-    // Collapse helper
+    // Collapse helpers
     root.x0 = 0;
     root.y0 = 0;
-    root.each(d => {
-      d.name = d.data.name;
-      if (d.depth > 1 && d.children) {
+    const collapse = (d) => {
+      if (d.children) {
         d._children = d.children;
         d.children = null;
       }
-    });
+      if (d._children) d._children.forEach(collapse);
+    };
+    // Shallow initial: show only depth 0 and 1; collapse deeper under each root child
+    if (root.children) root.children.forEach(collapse);
 
     const tree = d3.tree().nodeSize([dx, dy]);
     tree(root);
@@ -82,11 +84,13 @@
         .attr('transform', d => `translate(${source.y0},${source.x0})`)
         .on('click', (event, d) => {
           if (d.children) {
-            d._children = d.children;
-            d.children = null;
+            // Collapse entire subtree
+            collapse(d);
           } else if (d._children) {
+            // Expand one level and keep grandchildren collapsed
             d.children = d._children;
             d._children = null;
+            d.children.forEach(child => collapse(child));
           }
           update(d);
         });
