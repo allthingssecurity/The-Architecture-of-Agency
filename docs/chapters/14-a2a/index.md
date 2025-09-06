@@ -2,6 +2,14 @@
 
 ## The Social Brain of Agents: Inter-Agent Communication (A2A)
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="The_Social_Brain_of_AI.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="The_Social_Brain_of_AI.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Human intelligence is amplified through social exchange; agent intelligence scales through Inter‑Agent Communication (A2A). A2A is the protocol for meaning exchange, delegation, and collective intelligence across agents.
 
 ### Neuroscience Analogy
@@ -30,4 +38,3 @@ Multi‑framework collaboration, automated workflow orchestration, dynamic infor
 ### Conclusion
 
 A2A turns isolated agents into a cognitive society — enabling communication, coordination, and delegation across diverse frameworks.
-
