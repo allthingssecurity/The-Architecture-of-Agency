@@ -47,10 +47,20 @@
     const gLink = svg.append('g').attr('fill', 'none').attr('stroke', '#bbb').attr('stroke-opacity', 0.8).attr('stroke-width', 1.5);
     const gNode = svg.append('g').attr('cursor', 'pointer');
 
+    const isVisible = (d) => {
+      // A node is visible if all its ancestors are expanded (have children)
+      let a = d;
+      while (a.parent) {
+        if (!a.parent.children) return false;
+        a = a.parent;
+      }
+      return true;
+    };
+
     function update(source) {
       tree(root);
-      let nodes = root.descendants();
-      let links = root.links();
+      let nodes = root.descendants().filter(isVisible);
+      let links = root.links().filter(l => isVisible(l.source) && isVisible(l.target));
 
       // Normalize for fixed-depth horizontal spacing
       nodes.forEach(d => d.y = d.depth * dy);
@@ -58,7 +68,7 @@
       const transition = svg.transition().duration(250);
 
       // Update links
-      const link = gLink.selectAll('path').data(links, d => d.target.id || (d.target.id = Math.random().toString(36).slice(2)));
+      const link = gLink.selectAll('path').data(links, d => d.target.uid || (d.target.uid = Math.random().toString(36).slice(2)));
       const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
       link.join(
         enter => enter.append('path').attr('d', diagonal),
@@ -67,19 +77,23 @@
       ).transition(transition).attr('d', diagonal);
 
       // Update nodes
-      const node = gNode.selectAll('g').data(nodes, d => d.id || (d.id = Math.random().toString(36).slice(2)));
+      const node = gNode.selectAll('g').data(nodes, d => d.uid || (d.uid = Math.random().toString(36).slice(2)));
       const nodeEnter = node.enter().append('g')
         .attr('transform', d => `translate(${source.y0},${source.x0})`)
         .on('click', (event, d) => {
-          d.children = d.children ? null : d._children || d.children;
-          if (!d.children && d._children) { d.children = d._children; d._children = null; }
-          else if (d.children && !d._children && d.data.children) { d._children = d.children; d.children = null; }
+          if (d.children) {
+            d._children = d.children;
+            d.children = null;
+          } else if (d._children) {
+            d.children = d._children;
+            d._children = null;
+          }
           update(d);
         });
 
       nodeEnter.append('circle')
         .attr('r', 6)
-        .attr('fill', d => d.children || d._children ? '#1976d2' : '#fff')
+        .attr('fill', d => d._children ? '#1976d2' : (d.children ? '#1976d2' : '#fff'))
         .attr('stroke', '#1976d2')
         .attr('stroke-width', 2);
 
@@ -115,4 +129,3 @@
   document.addEventListener('DOMContentLoaded', init);
   window.addEventListener('load', init);
 })();
-
