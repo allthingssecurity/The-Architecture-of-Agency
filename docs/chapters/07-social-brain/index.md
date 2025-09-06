@@ -2,6 +2,55 @@
 
 ## The Social Brain: How Agents Learn to Work Together
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch7"></div>
+  <script type="application/json" id="dag-ch7-data">
+  {
+    "name": "The Social Brain",
+    "children": [
+      {"name": "Distributed Cognition", "children": [
+        {"name": "Divide labor for efficiency"},
+        {"name": "Synchronize actions via protocols"},
+        {"name": "Cross‑check knowledge for accuracy"},
+        {"name": "Resolve conflict (debate/consensus)"}
+      ]},
+      {"name": "Why It Matters", "children": [
+        {"name": "Complex tasks need specialists"},
+        {"name": "Emergent intelligence from interaction"}
+      ]},
+      {"name": "Forms of Collaboration", "children": [
+        {"name": "Relay (sequential)"},
+        {"name": "Parallel teams"},
+        {"name": "Debate & consensus"},
+        {"name": "Hierarchies (coordinator)"},
+        {"name": "Expert ensembles"}
+      ]},
+      {"name": "Sketch", "children": [
+        {"name": "assign_roles → work → integrate"}
+      ]},
+      {"name": "Design Lessons", "children": [
+        {"name": "Intelligence is collective"},
+        {"name": "Protocols matter"},
+        {"name": "Conflict can be productive"},
+        {"name": "Resilience through distribution"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "From isolated sparks to networked mind"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
+
 <div style="margin: 1rem 0;">
   <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
     <source src="The_Social_Brain.mp4" type="video/mp4">
