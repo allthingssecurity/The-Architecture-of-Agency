@@ -23,29 +23,36 @@ If you’ve ever tried to juggle too many things in your head at once, you’ll 
 <details open>
   <summary>Toggle mindmap</summary>
 
-  <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+  <!--
+    Markmap autoloader with zoom + toolbar and shallow initial expansion.
+    Remove this <script> to disable the mindmap entirely.
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@latest"
+          data-zoom="true"
+          data-toolbar="true"
+          data-initial-expand-level="1"></script>
 
   ```markmap
   # The Flow of Thought
-  - Brain’s Analogy
+  - Brain’s Analogy [↗](#the-brains-analogy-chunks-and-sequences)
     - Working memory limits (chunking)
     - Prefrontal sequencing (conductor)
-  - Why Flow Matters
+  - Why Flow Matters [↗](#why-flow-matters-for-agents)
     - Decompose → build stages
     - Reliability, fewer omissions
-  - Everyday Examples
+  - Everyday Examples [↗](#everyday-examples)
     - Storytelling (outline → chapters)
     - Cooking (prep → layer flavors)
     - Education (stepwise teaching)
     - Conversation (turn-taking)
-  - Agent Design Lessons
+  - Agent Design Lessons [↗](#agent-design-lessons)
     - Clarity: inspect steps
     - Accuracy: catch errors early
     - Flexibility: tool use mid-flow
     - Human-likeness: natural rhythm
-  - Pseudocode Sketch
+  - Pseudocode Sketch [↗](#pseudocode-sketch)
     - summarize → extract → evidence → draft
-  - Conclusion
+  - Conclusion [↗](#conclusion)
     - Sequence turns complexity into clarity
   ```
 
