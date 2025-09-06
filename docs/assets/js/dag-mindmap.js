@@ -25,8 +25,13 @@
       }
       if (d._children) d._children.forEach(collapse);
     };
-    // Shallow initial: show only depth 0 and 1; collapse deeper under each root child
-    if (root.children) root.children.forEach(collapse);
+    // Shallow initial: keep root and its direct children expanded,
+    // collapse grandchildren and deeper under each root child
+    if (root.children) {
+      root.children.forEach(child => {
+        if (child.children) child.children.forEach(collapse);
+      });
+    }
 
     const tree = d3.tree().nodeSize([dx, dy]);
     tree(root);
@@ -103,11 +108,14 @@
 
       nodeEnter.append('text')
         .attr('dy', '0.32em')
-        .attr('x', d => d.children || d._children ? 10 : 10)
+        .attr('x', 10)
         .attr('text-anchor', 'start')
         .attr('fill', '#111')
-        .text(d => d.data.name)
-        .clone(true).lower().attr('stroke', '#fff').attr('stroke-width', 3).attr('stroke-opacity', 0.7);
+        .attr('paint-order', 'stroke')
+        .attr('stroke', '#fff')
+        .attr('stroke-width', 3)
+        .attr('stroke-opacity', 0.7)
+        .text(d => d.data.name);
 
       const nodeUpdate = nodeEnter.merge(node);
       nodeUpdate.transition(transition).attr('transform', d => `translate(${d.y},${d.x})`);
