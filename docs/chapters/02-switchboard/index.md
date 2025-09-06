@@ -2,6 +2,16 @@
 
 ## The Brain’s Switchboard: How Agents Decide Where to Go Next
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="The_Agent_s_Switchboard.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="The_Agent_s_Switchboard.mp4">download the MP4</a>.
+  </video>
+</div>
+
+Inspired by the Basal Ganglia and Prefrontal Cortex
+
 <!-- mindmap:start (remove this whole block to disable) -->
 
 ### Interactive Graph (beta)
@@ -9,8 +19,9 @@
 <details open>
   <summary>Toggle graph</summary>
 
-  <div class=\"dag-mindmap\" id=\"dag-ch2\"></div>
-  <script type=\"application/json\" id=\"dag-ch2-data\">{
+  <div class="dag-mindmap" id="dag-ch2"></div>
+  <script type="application/json" id="dag-ch2-data">
+  {
     "name": "The Brain’s Switchboard",
     "children": [
       {"name": "Why Agents Need a Switchboard", "children": [
@@ -43,21 +54,12 @@
         {"name": "Switchboard → decision-making, not scripts"}
       ]}
     ]
-  }</script>
+  }
+  </script>
 
 </details>
 
 <!-- mindmap:end -->
-
-<div style="margin: 1rem 0;">
-  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
-    <source src="The_Agent_s_Switchboard.mp4" type="video/mp4">
-    Your browser does not support the video tag. You can
-    <a href="The_Agent_s_Switchboard.mp4">download the MP4</a>.
-  </video>
-</div>
-
-Inspired by the Basal Ganglia and Prefrontal Cortex
 
 Imagine you’re standing in a busy train station. Trains come and go. People shuffle toward platforms, each bound for a different destination. Now, picture yourself trying to navigate: Do you board the local train? Do you wait for the express? Or maybe you need to switch lines entirely?
 
