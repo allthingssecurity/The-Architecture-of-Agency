@@ -2,6 +2,14 @@
 
 ## The Hippocampal Recall: Knowledge Retrieval (RAG) as the Memory System of Agents
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="The_Hippocampus_of_AI.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="The_Hippocampus_of_AI.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Human memory is dynamic recall and reconstruction; the hippocampus retrieves fragments and reassembles them. Retrieval‑Augmented Generation (RAG) provides agents with hippocampal recall: fetch context from external sources and ground responses.
 
 ### Neuroscience Analogy
@@ -39,4 +47,3 @@ Fragmentation, noise, contradictions, and latency. Like human recall, imperfect 
 ### Conclusion
 
 RAG grounds agent reasoning in verifiable knowledge. Agentic RAG turns lookup into active memory search capable of filtering, reconciling, and updating knowledge in real time.
-
