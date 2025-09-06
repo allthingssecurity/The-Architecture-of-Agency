@@ -2,6 +2,55 @@
 
 ## The Hippocampal Recall: Knowledge Retrieval (RAG) as the Memory System of Agents
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch13"></div>
+  <script type="application/json" id="dag-ch13-data">
+  {
+    "name": "RAG (Hippocampal Recall)",
+    "children": [
+      {"name": "Neuroscience Analogy", "children": [
+        {"name": "Encoding (vectors)"},
+        {"name": "Cue recall (semantic search)"},
+        {"name": "Reconstruction (augmented prompt)"},
+        {"name": "Confabulation ↔ hallucination"}
+      ]},
+      {"name": "Core Mechanisms", "children": [
+        {"name": "Embeddings"},
+        {"name": "Semantic & hybrid search"},
+        {"name": "Chunking"},
+        {"name": "Augmentation"}
+      ]},
+      {"name": "Agentic RAG", "children": [
+        {"name": "Source validation"},
+        {"name": "Conflict resolution"},
+        {"name": "Decomposition"},
+        {"name": "Gap detection"}
+      ]},
+      {"name": "Applications", "children": [
+        {"name": "Enterprise, support, learning"},
+        {"name": "Research, real‑time support"}
+      ]},
+      {"name": "Challenges", "children": [
+        {"name": "Fragmentation, noise"},
+        {"name": "Contradictions, latency"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "Ground answers in memory"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
+
 <div style="margin: 1rem 0;">
   <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
     <source src="The_Hippocampus_of_AI.mp4" type="video/mp4">

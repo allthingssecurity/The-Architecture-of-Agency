@@ -10,6 +10,54 @@
   </video>
 </div>
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch9"></div>
+  <script type="application/json" id="dag-ch9-data">
+  {
+    "name": "Learning & Adaptation",
+    "children": [
+      {"name": "Brain Analogy", "children": [
+        {"name": "Reinforcement (dopamine)"},
+        {"name": "Supervised & unsupervised"},
+        {"name": "Few‑shot & online"},
+        {"name": "Memory‑based recall"}
+      ]},
+      {"name": "Why It Matters", "children": [
+        {"name": "Adjust to new data"},
+        {"name": "Personalize"},
+        {"name": "Improve with feedback"},
+        {"name": "Handle uncertainty"}
+      ]},
+      {"name": "Case Studies", "children": [
+        {"name": "SICA (self‑modifying coder)"},
+        {"name": "AlphaEvolve (evolution)"}
+      ]},
+      {"name": "Loop", "children": [
+        {"name": "observe → evaluate → modify → test → remember"}
+      ]},
+      {"name": "Design Lessons", "children": [
+        {"name": "Layered learning"},
+        {"name": "Continuous adaptation"},
+        {"name": "Self‑modification"},
+        {"name": "Population‑level evolution"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "From static to living processes"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
+
 Inspired by Neuroplasticity, Reward Signals, and Adaptive Cognition
 
 Intelligence is the capacity to change. The brain adapts through reinforcement signals, supervised learning, unsupervised discovery, few-shot generalization, online learning, and memory-based recall. Agents need similar mechanisms to avoid brittleness and grow with their environment.

@@ -10,6 +10,53 @@
   </video>
 </div>
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch12"></div>
+  <script type="application/json" id="dag-ch12-data">
+  {
+    "name": "Human‑in‑the‑Loop (HITL)",
+    "children": [
+      {"name": "Neuroscience Analogy", "children": [
+        {"name": "Automatic subsystems"},
+        {"name": "Error monitoring (ACC)"},
+        {"name": "Prefrontal override"}
+      ]},
+      {"name": "How It Works", "children": [
+        {"name": "Oversight & intervention"},
+        {"name": "Feedback for learning"},
+        {"name": "Decision augmentation"}
+      ]},
+      {"name": "Applications", "children": [
+        {"name": "Moderation, driving, fraud"},
+        {"name": "Legal/finance, support"}
+      ]},
+      {"name": "Scalability", "children": [
+        {"name": "Hybrid: automation + HITL"},
+        {"name": "Human‑on‑the‑loop"}
+      ]},
+      {"name": "Takeaways", "children": [
+        {"name": "Override system"},
+        {"name": "Escalation = error detection"},
+        {"name": "Learning from oversight"},
+        {"name": "Balance autonomy & supervision"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "Keep human judgment central"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
+
 The brain’s safeguard: fast, automatic systems act, but the PFC overrides when judgment, ethics, or nuance is required. Human‑in‑the‑Loop (HITL) plays the same role for agents: escalate ambiguous, risky, or high‑impact cases to humans.
 
 ### Neuroscience Analogy

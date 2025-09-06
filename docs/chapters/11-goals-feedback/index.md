@@ -10,6 +10,49 @@
   </video>
 </div>
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch11"></div>
+  <script type="application/json" id="dag-ch11-data">
+  {
+    "name": "Goals & Feedback",
+    "children": [
+      {"name": "Human Analogy", "children": [
+        {"name": "Goal setting (PFC)"},
+        {"name": "Monitoring (ACC)"},
+        {"name": "Feedback (dopamine)"}
+      ]},
+      {"name": "Translating to Agents", "children": [
+        {"name": "Goal → subgoals"},
+        {"name": "Progress tracking"},
+        {"name": "Replanning on failure"}
+      ]},
+      {"name": "Applications", "children": [
+        {"name": "Support, tutoring, trading"},
+        {"name": "Autonomy, PM"}
+      ]},
+      {"name": "Design Lessons", "children": [
+        {"name": "SMART goals"},
+        {"name": "Continuous feedback"},
+        {"name": "Role separation"},
+        {"name": "Failures → replans"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "From reactive to purposeful"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
+
 Brains are purpose-driven. The prefrontal cortex (PFC) sets goals, plans, monitors progress, and adjusts to feedback. Agents need an equivalent Goal Setting and Monitoring pattern to move from reactive to proactive.
 
 ### Human Analogy

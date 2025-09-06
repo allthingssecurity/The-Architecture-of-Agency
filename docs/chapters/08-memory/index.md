@@ -10,6 +10,52 @@
   </video>
 </div>
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch8"></div>
+  <script type="application/json" id="dag-ch8-data">
+  {
+    "name": "Memory",
+    "children": [
+      {"name": "Human Analogy", "children": [
+        {"name": "Working (short-term focus)"},
+        {"name": "Episodic (history)"},
+        {"name": "Semantic (facts)"},
+        {"name": "Procedural (skills)"},
+        {"name": "Forgetting (pruning)"}
+      ]},
+      {"name": "Why Agents Need It", "children": [
+        {"name": "Maintain context"},
+        {"name": "Track progress"},
+        {"name": "Personalize"},
+        {"name": "Learn from experience"}
+      ]},
+      {"name": "Flow", "children": [
+        {"name": "short → long (promote)"},
+        {"name": "summarize or discard"}
+      ]},
+      {"name": "Design Lessons", "children": [
+        {"name": "Balance immediacy & persistence"},
+        {"name": "Layered structure"},
+        {"name": "Forgetting is essential"},
+        {"name": "Memory enables identity"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "Remember enough; forget enough"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
+
 Inspired by Human Memory Systems in Cognitive Neuroscience
 
 Human intelligence relies on multiple memory systems and strategic forgetting. Agents need the same: memory bridges moments, connects experiences, and enables adaptation. Without it, an agent is a goldfish; with it, an agent is coherent and learning.

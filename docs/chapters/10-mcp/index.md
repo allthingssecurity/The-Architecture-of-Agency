@@ -2,6 +2,46 @@
 
 ## Shared Language for Tools: How Agents Extend Themselves Beyond the Brain
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch10"></div>
+  <script type="application/json" id="dag-ch10-data">
+  {
+    "name": "Shared Language for Tools (MCP)",
+    "children": [
+      {"name": "Human Analogy", "children": [
+        {"name": "Nervous system signals"},
+        {"name": "Discovery & separation of concerns"}
+      ]},
+      {"name": "Why MCP Matters", "children": [
+        {"name": "Consistency & interoperability"},
+        {"name": "Reusability & discoverability"}
+      ]},
+      {"name": "Design Lessons", "children": [
+        {"name": "Agents need a nervous system"},
+        {"name": "Data must be digestible"},
+        {"name": "Deterministic support"}
+      ]},
+      {"name": "Practical Uses", "children": [
+        {"name": "DBs, media tools, CRMs"},
+        {"name": "IoT, finance"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "From isolated LLM to embodied mind"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
+
 <div style="margin: 1rem 0;">
   <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
     <source src="The_Agent_s_Nervous_System.mp4" type="video/mp4">
