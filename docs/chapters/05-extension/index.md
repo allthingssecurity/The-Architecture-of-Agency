@@ -10,6 +10,52 @@
   </video>
 </div>
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch5"></div>
+  <script type="application/json" id="dag-ch5-data">
+  {
+    "name": "Extending the Mind",
+    "children": [
+      {"name": "Brain’s Analogy", "children": [
+        {"name": "Offload working memory (notes)"},
+        {"name": "Instruments for precision"},
+        {"name": "References for knowledge"}
+      ]},
+      {"name": "Why It Matters", "children": [
+        {"name": "Fetch real-time facts"},
+        {"name": "Execute calculations"},
+        {"name": "Control external systems"}
+      ]},
+      {"name": "Real-World Scenarios", "children": [
+        {"name": "Weather, DB queries, math"},
+        {"name": "Comms & device control"}
+      ]},
+      {"name": "Sketch", "children": [
+        {"name": "lookup | calc | act | internal"}
+      ]},
+      {"name": "Design Lessons", "children": [
+        {"name": "Intelligence is extended"},
+        {"name": "Know when to reach out"},
+        {"name": "External worlds are dynamic"},
+        {"name": "Aim for seamless symbiosis"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "From thinkers to doers"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
+
 Inspired by Human Tool Use and Cognitive Offloading
 
 Humans are not confined to their skulls. We extend cognition with tools — from fingers for counting to smartphones for navigation. Agents are no different: however sophisticated their reasoning, they are limited if they only “think” within trained data. To be useful, they must reach outward — to fetch real-time facts, execute precise calculations, and control external systems.
