@@ -18,36 +18,45 @@ If you’ve ever tried to juggle too many things in your head at once, you’ll 
 
 <!-- mindmap:start (remove this whole block to disable) -->
 
-### Interactive Mindmap (beta)
+### Interactive Graph (beta)
 
 <details open>
-  <summary>Toggle mindmap</summary>
+  <summary>Toggle graph</summary>
 
-  ```mermaid
-  %%{init: {"theme": "default"}}%%
-  mindmap
-    root((The Flow of Thought))
-      Brain’s Analogy
-        Working memory limits (chunking)
-        Prefrontal sequencing (conductor)
-      Why Flow Matters
-        Decompose → build stages
-        Reliability, fewer omissions
-      Everyday Examples
-        Storytelling (outline → chapters)
-        Cooking (prep → layer flavors)
-        Education (stepwise teaching)
-        Conversation (turn-taking)
-      Agent Design Lessons
-        Clarity: inspect steps
-        Accuracy: catch errors early
-        Flexibility: tool use mid-flow
-        Human-likeness: natural rhythm
-      Pseudocode Sketch
-        summarize → extract → evidence → draft
-      Conclusion
-        Sequence turns complexity into clarity
-  ```
+  <div class="dag-mindmap" id="dag-ch1"></div>
+  <script type="application/json" id="dag-ch1-data">
+  {
+    "name": "The Flow of Thought",
+    "children": [
+      {"name": "Brain’s Analogy", "children": [
+        {"name": "Working memory limits (chunking)"},
+        {"name": "Prefrontal sequencing (conductor)"}
+      ]},
+      {"name": "Why Flow Matters", "children": [
+        {"name": "Decompose → build stages"},
+        {"name": "Reliability, fewer omissions"}
+      ]},
+      {"name": "Everyday Examples", "children": [
+        {"name": "Storytelling (outline → chapters)"},
+        {"name": "Cooking (prep → layer flavors)"},
+        {"name": "Education (stepwise teaching)"},
+        {"name": "Conversation (turn-taking)"}
+      ]},
+      {"name": "Agent Design Lessons", "children": [
+        {"name": "Clarity: inspect steps"},
+        {"name": "Accuracy: catch errors early"},
+        {"name": "Flexibility: tool use mid-flow"},
+        {"name": "Human-likeness: natural rhythm"}
+      ]},
+      {"name": "Pseudocode Sketch", "children": [
+        {"name": "summarize → extract → evidence → draft"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "Sequence turns complexity into clarity"}
+      ]}
+    ]
+  }
+  </script>
 
 </details>
 

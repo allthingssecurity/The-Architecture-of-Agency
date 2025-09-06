@@ -16,6 +16,8 @@ theme:
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
   - assets/js/mermaid-init.js
+  - https://unpkg.com/d3@7/dist/d3.min.js
+  - assets/js/dag-mindmap.js
 nav:
   - Overview:
       - Home: index.md
