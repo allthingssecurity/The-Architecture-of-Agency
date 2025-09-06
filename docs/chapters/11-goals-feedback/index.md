@@ -2,6 +2,14 @@
 
 ## The Prefrontal Cortex of Agents: How Goals and Feedback Drive Intelligent Behavior
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="The_AI_s_Executive_Brain.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="The_AI_s_Executive_Brain.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Brains are purpose-driven. The prefrontal cortex (PFC) sets goals, plans, monitors progress, and adjusts to feedback. Agents need an equivalent Goal Setting and Monitoring pattern to move from reactive to proactive.
 
 ### Human Analogy
@@ -36,4 +44,3 @@ Self-reviewing agents that iterate until criteria are met implement the PFC loop
 ### Conclusion
 
 Goal setting and monitoring turn raw intelligence into purposeful, self-correcting action.
-
