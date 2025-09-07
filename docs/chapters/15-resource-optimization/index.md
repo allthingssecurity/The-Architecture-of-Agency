@@ -2,6 +2,14 @@
 
 ## The Metabolic Brain of Agents: Resource-Aware Optimization
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="The_Metabolic_Brain.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="The_Metabolic_Brain.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Brains and agents have limited energy. Resource‑Aware Optimization is cognitive budgeting: adapt strategy to compute, time, and cost constraints, balancing fast heuristics and slow deliberation.
 
 ### Neuroscience Analogy
@@ -27,3 +35,44 @@ Cost‑constrained support, latency‑sensitive trading, energy‑aware edge age
 
 Intelligence isn’t just solving problems — it’s doing so economically, investing effort where it matters.
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch15"></div>
+  <script type="application/json" id="dag-ch15-data">
+  {
+    "name": "Resource‑Aware Optimization",
+    "children": [
+      {"name": "Neuroscience Analogy", "children": [
+        {"name": "System 1 vs System 2"},
+        {"name": "Neural efficiency"},
+        {"name": "Sleep consolidation"}
+      ]},
+      {"name": "Strategies", "children": [
+        {"name": "Dynamic model switching"},
+        {"name": "Fallback mechanisms"},
+        {"name": "Pruning & summarization"},
+        {"name": "Adaptive tool selection"},
+        {"name": "Resource forecasting"},
+        {"name": "Graceful degradation"}
+      ]},
+      {"name": "Applications", "children": [
+        {"name": "Cost‑constrained support"},
+        {"name": "Latency‑sensitive trading"},
+        {"name": "Energy‑aware edge agents"},
+        {"name": "Load‑balanced multi‑agent"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "Spend just enough thought"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
