@@ -2,6 +2,14 @@
 
 ## The Prefrontal Cortex of Agents: Reasoning Techniques
 
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="Agent_Reasoning__The_AI_PFC.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="Agent_Reasoning__The_AI_PFC.mp4">download the MP4</a>.
+  </video>
+</div>
+
 Reasoning is the agent’s executive function — exposing intermediate steps, exploring alternatives, and refining outputs instead of answering in one shot.
 
 ### Neuroscience Analogy
@@ -33,3 +41,48 @@ Complex QA, math/code, debugging, strategic planning, medical/legal analysis, de
 
 Reasoning techniques turn pattern‑matching into deliberate, transparent problem‑solving — the agent analogue of the PFC.
 
+<!-- mindmap:start (remove this whole block to disable) -->
+
+### Interactive Graph (beta)
+
+<details open>
+  <summary>Toggle graph</summary>
+
+  <div class="dag-mindmap" id="dag-ch16"></div>
+  <script type="application/json" id="dag-ch16-data">
+  {
+    "name": "Reasoning Techniques (PFC)",
+    "children": [
+      {"name": "Neuroscience Analogy", "children": [
+        {"name": "PFC working memory"},
+        {"name": "Tree search (preplays)"},
+        {"name": "Error monitoring (ACC)"},
+        {"name": "Hybrid symbolic+neural"}
+      ]},
+      {"name": "Core Techniques", "children": [
+        {"name": "Chain‑of‑Thought"},
+        {"name": "Tree‑of‑Thought"},
+        {"name": "Self‑Correction"},
+        {"name": "Program‑Aided (code/symbols)"},
+        {"name": "ReAct (tools in loop)"},
+        {"name": "Collective reasoning"},
+        {"name": "MASS (optimize prompts/topology)"}
+      ]},
+      {"name": "Scaling Inference", "children": [
+        {"name": "Thinking budget → quality"}
+      ]},
+      {"name": "Applications", "children": [
+        {"name": "QA, math/code, debugging"},
+        {"name": "Planning, med/legal analysis"},
+        {"name": "Deep research with time budgets"}
+      ]},
+      {"name": "Conclusion", "children": [
+        {"name": "Make steps explicit to strengthen answers"}
+      ]}
+    ]
+  }
+  </script>
+
+</details>
+
+<!-- mindmap:end -->
