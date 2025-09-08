@@ -2,6 +2,16 @@
 
 ## Shared Language for Tools: How Agents Extend Themselves Beyond the Brain
 
+ 
+
+<div style="margin: 1rem 0;">
+  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+    <source src="The_Agent_s_Nervous_System.mp4" type="video/mp4">
+    Your browser does not support the video tag. You can
+    <a href="The_Agent_s_Nervous_System.mp4">download the MP4</a>.
+  </video>
+</div>
+
 <!-- mindmap:start (remove this whole block to disable) -->
 
 ### Interactive Graph (beta)
@@ -41,14 +51,6 @@
 </details>
 
 <!-- mindmap:end -->
-
-<div style="margin: 1rem 0;">
-  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
-    <source src="The_Agent_s_Nervous_System.mp4" type="video/mp4">
-    Your browser does not support the video tag. You can
-    <a href="The_Agent_s_Nervous_System.mp4">download the MP4</a>.
-  </video>
-</div>
 
 Inspired by the Nervous System and Neural Signaling
 
