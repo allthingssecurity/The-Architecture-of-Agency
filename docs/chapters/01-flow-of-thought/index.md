@@ -2,15 +2,28 @@
 
 ## The Flow of Thought: How Agents String Ideas Together
 
-<div style="margin: 1rem 0;">
-  <video controls playsinline preload="metadata" crossorigin="anonymous" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
-    <source src="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.mp4?v=2" type="video/mp4" />
-    <source src="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.webm?v=2" type="video/webm" />
-    Your browser does not support the video tag. You can
-    <a href="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.mp4?v=2">download the MP4</a> or
-    <a href="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.webm?v=2">download the WebM</a>.
-  </video>
-</div>
+
+=== "Video"
+
+    <div style="margin: 0.5rem 0 1rem;">
+      <video controls playsinline preload="metadata" crossorigin="anonymous" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+        <source src="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.mp4?v=2" type="video/mp4" />
+        <source src="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.webm?v=2" type="video/webm" />
+        Your browser does not support the video tag. You can
+        <a href="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.mp4?v=2">download the MP4</a> or
+        <a href="/The-Architecture-of-Agency/chapters/01-flow-of-thought/Cognitive_Flow.webm?v=2">download the WebM</a>.
+      </video>
+    </div>
+
+=== "Podcast"
+
+    <div style="margin: 0.5rem 0 1rem;">
+      <audio controls preload="metadata" style="width:100%;max-width:960px;">
+        <source src="chapter1.wav" type="audio/wav" />
+        Your browser does not support the audio element. You can
+        <a href="chapter1.wav">download the WAV</a>.
+      </audio>
+    </div>
 
 Inspired by Working Memory and Cognitive Sequences
 

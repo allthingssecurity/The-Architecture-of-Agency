@@ -9,6 +9,7 @@ theme:
     - navigation.sections
     - navigation.top
     - content.code.copy
+    - content.tabs
   palette:
     - scheme: default
       primary: blue
@@ -57,5 +58,6 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight
+  - pymdownx.tabbed
   - toc:
       permalink: true
