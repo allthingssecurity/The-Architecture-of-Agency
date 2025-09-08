@@ -39,10 +39,6 @@ More compute/time at inference → better reasoning, sometimes surpassing larger
 
 Complex QA, math/code, debugging, strategic planning, medical/legal analysis, deep research with time budgets.
 
-### Conclusion
-
-Reasoning techniques turn pattern‑matching into deliberate, transparent problem‑solving — the agent analogue of the PFC.
-
 <!-- mindmap:start (remove this whole block to disable) -->
 
 ### Interactive Graph (beta)
@@ -85,6 +81,10 @@ Reasoning techniques turn pattern‑matching into deliberate, transparent proble
   }
   </script>
 
-</details>
+ </details>
 
 <!-- mindmap:end -->
+
+### Conclusion
+
+Reasoning techniques turn pattern‑matching into deliberate, transparent problem‑solving — the agent analogue of the PFC.

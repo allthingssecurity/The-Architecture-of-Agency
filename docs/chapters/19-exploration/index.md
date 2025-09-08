@@ -38,10 +38,6 @@ Curiosity drives exploration. Neuroscience shows novelty bonuses in dopaminergic
 
 Balance exploitation (known strategies) with exploration (new knowledge). Too much exploitation → stagnation; too much exploration → chaos.
 
-### Conclusion
-
-Exploration is guided curiosity. With intrinsic rewards, collaboration, and rigorous evaluation, AI becomes a partner in discovery — accelerating science, creativity, and learning.
-
 <!-- mindmap:start (remove this whole block to disable) -->
 
 ### Interactive Graph (beta)
@@ -81,6 +77,10 @@ Exploration is guided curiosity. With intrinsic rewards, collaboration, and rigo
   }
   </script>
 
-</details>
+ </details>
 
 <!-- mindmap:end -->
+
+### Conclusion
+
+Exploration is guided curiosity. With intrinsic rewards, collaboration, and rigorous evaluation, AI becomes a partner in discovery — accelerating science, creativity, and learning.
