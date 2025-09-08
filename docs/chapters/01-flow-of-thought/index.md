@@ -19,9 +19,9 @@
 
     <div style="margin: 0.5rem 0 1rem;">
       <audio controls preload="metadata" style="width:100%;max-width:960px;">
-        <source src="chapter1.wav" type="audio/wav" />
+        <source src="/The-Architecture-of-Agency/chapters/01-flow-of-thought/chapter1.wav?v=1" type="audio/wav" />
         Your browser does not support the audio element. You can
-        <a href="chapter1.wav">download the WAV</a>.
+        <a href="/The-Architecture-of-Agency/chapters/01-flow-of-thought/chapter1.wav?v=1">download the WAV</a>.
       </audio>
     </div>
 
