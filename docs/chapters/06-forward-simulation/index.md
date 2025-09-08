@@ -2,13 +2,29 @@
 
 ## The Brain’s Forward Simulation: How Agents Learn to Look Ahead
 
-<div style="margin: 1rem 0;">
-  <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
-    <source src="AI_Learns_to_Look_Ahead.mp4" type="video/mp4">
-    Your browser does not support the video tag. You can
-    <a href="AI_Learns_to_Look_Ahead.mp4">download the MP4</a>.
-  </video>
-</div>
+=== "Video"
+
+    <div style="margin: 0.5rem 0 1rem;">
+      <video controls playsinline preload="metadata" style="width:100%;max-width:960px;border-radius:8px;background:#000;">
+        <source src="AI_Learns_to_Look_Ahead.mp4" type="video/mp4">
+        Your browser does not support the video tag. You can
+        <a href="AI_Learns_to_Look_Ahead.mp4">download the MP4</a>.
+      </video>
+    </div>
+
+=== "Podcast"
+
+    <div style="margin: 0.5rem 0 1rem;">
+      <audio controls preload="metadata" style="width:100%;max-width:960px;">
+        <source src="/The-Architecture-of-Agency/chapters/06-forward-simulation/chapter6.mp3?v=1" type="audio/mpeg" />
+        <source src="/The-Architecture-of-Agency/chapters/06-forward-simulation/chapter6.ogg?v=1" type="audio/ogg" />
+        <source src="/The-Architecture-of-Agency/chapters/06-forward-simulation/chapter6.wav?v=1" type="audio/wav" />
+        Your browser does not support the audio element. You can
+        <a href="/The-Architecture-of-Agency/chapters/06-forward-simulation/chapter6.mp3?v=1">download the MP3</a> or
+        <a href="/The-Architecture-of-Agency/chapters/06-forward-simulation/chapter6.ogg?v=1">download the OGG</a> or
+        <a href="/The-Architecture-of-Agency/chapters/06-forward-simulation/chapter6.wav?v=1">download the WAV</a>.
+      </audio>
+    </div>
 
 <!-- mindmap:start (remove this whole block to disable) -->
 
