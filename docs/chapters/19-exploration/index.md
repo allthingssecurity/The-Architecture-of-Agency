@@ -77,7 +77,7 @@ Balance exploitation (known strategies) with exploration (new knowledge). Too mu
   }
   </script>
 
- </details>
+</details>
 
 <!-- mindmap:end -->
 
